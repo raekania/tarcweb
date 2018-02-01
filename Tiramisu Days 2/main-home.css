@@ -1,0 +1,153 @@
+body {
+	background-image: url('img/bg.png');
+	background-repeat: repeat;
+	max-width: 100%;
+}
+
+footer {
+	padding: 2% 1% 1% 1%;
+	background-color: #d38196;
+	color: #FFF;
+	font-size: 1em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2.5em;
+	font-family: 'Great Vibes', cursive;
+	font-weight: bold;
+	color: #ed95ab;
+}
+
+h4 {
+	font-size: 1.3em;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+h3, h4 {
+	display: inline-block;
+}
+
+p {
+	font-size: 1.2em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.6px;
+    border-color: #724f25;
+}
+
+footer p{
+	font-size: 1em;
+	text-align: center;
+}
+
+.navbar{
+  	margin-bottom: 0;
+  	border-radius: 0;
+  	background-color: transparent;
+  	color: #545556;
+  	padding: 1% 1%;
+  	font-size: 1.25em;
+  	border: 0;
+  	font-family: 'Poiret One', cursive;
+  	font-weight: bold;
+}
+
+.navbar-brand{
+  	float: left;
+  	min-height: 60px;
+  	padding: 0 15px 5px 30px;
+}
+
+.navbar-nav {
+	margin-right: 0.4%;
+}
+
+
+.myCarousel {
+	display: inline-block;
+	width: auto;	
+	height: auto;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+.characters p {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2vw;
+	text-align: center;
+
+}
+
+#logo {
+	float: left;
+	margin: 0;
+	max-height: 58px;
+
+}
+
+#link-active {
+	background-color: #f2dce1;
+}
+
+@media (max-width: 1200px) {
+	.characters p{
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 600px) {
+	.myCarousel {
+		position: absolute;
+		clip: rect(0px 600px auto 0px);
+	}
+
+	.item {
+		position: absolute;
+		clip: rect(0px 500px 500px 0px);
+	}
+
+	.characters p{
+		font-size: 1.25em;
+	}
+}
+
+@media (max-width: 480px) {
+	h3 {
+		font-size: 2em;
+	}
+
+	p {
+		font-size: 0.9em;
+	}
+
+	.navbar {
+		font-size: 1em;
+	}
+
+	.navbar-brand {
+		padding: 0 15px 5px;
+	}
+
+	footer p{
+	font-size: 0.8em;
+	text-align: center;
+}
+}

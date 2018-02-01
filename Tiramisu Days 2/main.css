@@ -1,0 +1,44 @@
+body {
+	background-image: url('img/bg.png');	
+	background-repeat: repeat;	
+	font-family:'Poiret One', cursive;
+}
+
+.menu {
+	margin-top: 15%;
+}
+
+#logoblack {
+	max-width: 400px;
+	vertical-align: middle;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	animation-duration: 100s;
+}
+
+#welcometext {
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 2%; 
+	color: black;
+}
+
+.menu a:link {
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color: red;
+}
+
+
+@media (max-width: 600px) {
+	#logoblack {
+		max-width: 200px;
+	}
+
+	#welcometext {
+		font-size: 0.8em;
+	}
+}

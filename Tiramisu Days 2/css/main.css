@@ -1,0 +1,22 @@
+#logoblack {
+	max-width: 400px;
+	vertical-align: middle;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	transition: all 3s;
+}
+
+#menu {
+	align-items: center;
+}
+
+@media (max-width: 600px) {
+	#logoblack {
+		max-width: 200px;
+	}
+
+	#welcometext {
+		font-size: 0.8em;
+	}
+}
